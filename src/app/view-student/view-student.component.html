@@ -1,0 +1,27 @@
+<div class="container">
+    <h2 align="center">Student Management List</h2>
+    <table class="table table-striped table-bordered table-hover">
+    <thead class="table-primary">
+        <tr>
+            <td>ID</td>
+        <td>Student Name</td>
+        <td>Department</td>
+        <td>Year</td>
+        <td>Operations</td>
+        
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let v of data">
+            <td>{{v.id}}</td>
+            <td>{{v.name}}</td>
+            <td>{{v.dept}}</td>
+            <td>{{v.year}}</td>
+            <td><button (click)="updateStudent(v.id)" class="btn btn-info">Update</button>
+                <button (click)="deleteStudent(v.id)" class="btn btn-danger" style="margin-left: 5px;">Delete</button></td>
+            
+        </tr>
+    </tbody>
+    
+    </table>
+    </div>

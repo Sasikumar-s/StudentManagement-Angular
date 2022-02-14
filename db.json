@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Sasikumar S",
+      "dept": "CSE",
+      "year": 4
+    },
+    {
+      "id": "2",
+      "name": "Makesh Kumar",
+      "dept": "Electrical engineering",
+      "year": 4
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<div class="container">
+    
+    <div class="col-md-6 offset-md-3">
+        <h2>Add New Employee</h2>
+    <form [formGroup]="studentinfo">
+        <label >ID</label>
+        <input type="text" class="form-control" formControlName="id" name="id">
+        <br>
+        <label>Name</label>
+        <input type="text" class="form-control" formControlName="name"  name="name" >
+        <br>
+        <label>Department</label>
+      <div></div>
+        <select class="form-select" formControlName="dept" name="dept" >
+            
+            <option *ngFor="let d of depart" value="{{d}}">{{d}}</option>
+        </select>
+        <br>
+        <label>Year</label>
+        <input type="Number" class="form-control"  formControlName="year" name="year">
+        <br>
+        <button type="submit" (click)="submitData()" class="btn btn-success"  >Save</button>
+    </form>
+</div>
+</div>
