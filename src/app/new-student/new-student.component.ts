@@ -22,7 +22,10 @@ url="http://localhost:3000/posts"
       id:[,Validators.required],
       name:[],
       dept:[],
-      year:[]
+      year:[],
+      contact:[],
+      email:[],
+      address:[]
 
     })
   }

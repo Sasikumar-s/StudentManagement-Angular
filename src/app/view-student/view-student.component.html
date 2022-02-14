@@ -7,6 +7,9 @@
         <td>Student Name</td>
         <td>Department</td>
         <td>Year</td>
+        <td>Contact</td>
+        <td>Email ID</td>
+        <td>Address</td>
         <td>Operations</td>
         
     </tr>
@@ -17,6 +20,9 @@
             <td>{{v.name}}</td>
             <td>{{v.dept}}</td>
             <td>{{v.year}}</td>
+            <td>{{v.contact}}</td>
+            <td>{{v.email}}</td>
+            <td>{{v.address}}</td>
             <td><button (click)="updateStudent(v.id)" class="btn btn-info">Update</button>
                 <button (click)="deleteStudent(v.id)" class="btn btn-danger" style="margin-left: 5px;">Delete</button></td>
             

@@ -3,14 +3,29 @@
     {
       "id": "1",
       "name": "Sasikumar S",
-      "dept": "CSE",
-      "year": 4
+      "dept": "Computer Science And Engineering",
+      "year": 4,
+      "contact": "9500421893",
+      "email": "sasi@kumaran.com",
+      "address": "Kangeyam,Tirupur"
     },
     {
       "id": "2",
       "name": "Makesh Kumar",
+      "dept": "Computer Science And Engineering",
+      "year": 4,
+      "contact": "9912345123",
+      "email": "makesh@gmail.com",
+      "address": "Muthur,Tirupur"
+    },
+    {
+      "id": "3",
+      "name": "Jeyaprakash R",
       "dept": "Electrical engineering",
-      "year": 4
+      "year": 4,
+      "contact": "9876543210",
+      "email": "jeyaprakash@gmail.com",
+      "address": "Kangeyam,Tirupur"
     }
   ]
 }

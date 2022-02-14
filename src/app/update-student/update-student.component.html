@@ -4,7 +4,7 @@
         <h2>Update student</h2>
     <form (ngSubmit)="onSubmit()">
         <label >ID</label>
-        <input type="text" class="form-control" [(ngModel)]="studentinfo.id" name="id">
+        <input type="text" class="form-control" [(ngModel)]="studentinfo.id" readonly name="id">
         <br>
         <label>Name</label>
         <input type="text" class="form-control" [(ngModel)]="studentinfo.name"  name="name" >
@@ -15,7 +15,22 @@
         <label>Year</label>
         <input type="Number" class="form-control"  [(ngModel)]="studentinfo.year" name="year">
         <br>
-        <button type="submit"  class="btn btn-success" >Save</button>
+        
+        <label>Contact Number</label>
+        <input type="text" class="form-control"  [(ngModel)]="studentinfo.contact" name="contact">
+        <br>
+
+        
+        <label>Email ID</label>
+        <input type="text" class="form-control"  [(ngModel)]="studentinfo.email" name="email">
+        <br>
+
+        
+        <label>Address</label>
+        <textarea class="form-control" rows="5" [(ngModel)]="studentinfo.address" name="address" ></textarea>
+        <br>
+        <button type="submit"  class="btn btn-success" >Save</button><br>
     </form>
+    <br><br>
 </div>
 </div>
